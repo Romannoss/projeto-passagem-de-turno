@@ -1,0 +1,167 @@
+/* main page "passagem de turno"  */
+@charset "utf-8";
+
+/*
+header{
+	
+	
+	width: 99%;
+}
+
+margin: 0px auto;
+	padding: 2px;
+width: 101%;
+-5px -5px 20px 0px;
+*/
+
+.container{
+	background-color: Blue;
+	height: 60px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	
+	
+}
+ 
+.nav-logo{ 
+	 
+	margin-top: 2px;
+	margin-left: 250px;
+	
+}
+ 
+h1{
+	
+	text-align: center;
+	padding: 20px;	
+}
+
+#titulo{
+	
+	width: 90%;
+	height: 150px;
+	background-color: #d3d3d3;
+	position: absolute;
+	top: 90px;
+	left: 75px;
+	border: 5px solid black; 
+	
+	
+}
+
+*{
+	font-family: Arial, Helvetica;
+	
+	
+}
+/*
+margin: 20px 0px 0px 75px;
+#menu{
+	
+	margin: -20px 20px 20px 0px;
+	float: right;
+	clear: both;
+	
+	
+	
+}
+*/
+
+nav#menu{
+	display: block;
+	
+}
+
+nav#menu ul{
+	
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 400px;
+	
+}
+
+nav#menu li{
+	display: inline-block;
+	margin: 6px;
+	padding: 20px;
+	transition: background-color 0.5s;
+}
+
+nav#menu li:hover {
+	background-color: #cacaca;
+	
+}
+
+nav#menu a{
+	color: white;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: black;
+	
+}
+
+body{
+
+	background-color: #d3d3d3;
+
+}
+
+
+
+footer{
+	
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	bottom: 5px;
+	width: 99%;
+	box-sizing: border-box;
+	height: 50px;
+	
+}
+
+/*
+#logo{
+	margin: 5px;
+	padding: 10px 0px 0px 20px;
+	
+}
+
+color: #606060 #bbbaba
+*/
+
+
+/* container 
+.container{
+	margin: -50 0 0 0;
+	float: top;
+}
+*/
+
+
+
+
+
+
+
+
+footer prd 
+
+/*
+	background-color:green;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: 52px;
+	
+	*/

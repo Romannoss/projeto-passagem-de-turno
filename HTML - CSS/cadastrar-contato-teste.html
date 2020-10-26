@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="cadastrar-contato-teste.css" />
+
+    <title>PAGINA INICIAL - Passagem de Turno</title>
+
+</head>
+
+
+
+<body>
+
+    <header class="container">
+
+
+        <div class="nav-logo">
+
+            <a href="passagem teste.html">
+                <img src="logo_caixa.png">
+            </a>
+
+        </div>
+
+
+
+        <nav id="menu">
+
+            <ul>
+                <li><a href="#">Histórico</a></li>
+                <li><a href="passagem-turno-teste.html">Passagem</a></li>
+                <li><a href="contatos teste.html">Contatos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <div id="cadastrar-cont">
+
+        <h2>
+            cadastrar contato
+        </h2>
+
+
+        <nav id="formulario-cad">
+
+
+            <form method="POST">
+                <label for="fname">EQUIPE:</label>
+                <input type="text" id="fname" name="fname" maxlength="30"><br><br>
+
+                <label for="lname">Nº TELEFONE:</label>
+                <input type="number" id="lname" name="lname" maxlength="30"><br><br>
+
+                <label for="lname">PERIODO:</label>
+
+                <select name="pname" id="pname">
+					<option>MANHÃ</option>
+					<option>TARDE</option>
+					<option>NOITE</option>
+					<option>COMERCIAL</option>
+				</select><br><br>
+
+                <label for="lname">NOME DO CONTATO:</label>
+                <input type="text" id="lname" name="lname" maxlength="30"><br><br>
+
+
+            </form>
+
+        </nav>
+
+
+        <button type="button" onclick="alert('Cadastrado com sucesso.') ">cadastrar contato</button>
+
+        <button id="bvoltar" onclick="window.location.href='contatos teste.html';">voltar</button>
+
+
+
+        <!--
+		<script>
+			alert("Cadastrado com sucesso.");
+
+		</script> 
+		
+		<input type="submit" value="Submit">
+		-->
+
+
+
+    </div>
+
+    <!-- onclick="Cadastrado com sucesso()"  -->
+
+
+
+    <footer>
+
+        <p>
+            CEPTIRJ © 2019 - APLICATIVO DE PASSAGEM DE TURNO
+        </p>
+
+    </footer>
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,73 @@
+/*  arquivo css (main page) */
+
+
+p{
+	font-family: monospace, "times new roman";
+	color: white;
+	font-size: 20px;
+	padding: 10px 10px 0px ; 
+}
+
+header{
+	
+	background: blue;
+	height: 80px;
+	padding: 20px;
+	
+}
+
+body{
+	
+	background-color: blue;
+	
+	
+}
+
+#h2_header{
+	
+	color:#FFFFFF;
+	font-family: monospace;
+	font-size: 30px;
+	margin: 0px 0px 0px 250px;
+}
+
+#div_caixa{
+
+	background-color: black;
+	min-height: 617px;
+	height: 600px;
+	width: 98%;	
+	margin: 0px 0px 0px 12px;
+	
+	
+}
+
+
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0 ;
+}
+
+/*
+#all{
+	height:100%;
+	width: 100%;
+	margin:auto;
+}
+*/
+
+footer{
+	
+	padding: 10px;
+	background-color:green;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: 52px;
+}
+
+
+

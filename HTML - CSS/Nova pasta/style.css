@@ -1,0 +1,116 @@
+
+p{
+	font-family: monospace, times new roman;
+	color: white;
+	font-size: 20px;
+	 
+}
+
+body{
+	background-color:#505457;
+	height: 100px;
+}
+
+*{
+	
+	margin: 0;
+	padding: 0 ;
+}
+
+
+header{
+	
+	background: blue;
+	height: 80px;	
+	padding: 20px;
+	
+}
+
+#h2_header{
+	color:#FFFFFF;
+	font-family: monospace;
+	text-align: center;
+	padding: 7px;
+	font-size: 30px;
+	
+}
+
+#div_1{
+
+	background-color: black ;
+	min-height: 100px;
+	width: 60%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+#div_menu{
+	float: right;
+	clear: both;
+	background-color: white;
+	color: white;
+}
+
+#div_menu a{
+	text-decoration: none;
+	font-family: monospace;
+	color: white;
+	text-shadow: 1px 1px #111111;
+	padding: 15px;
+	margin: -50px 0 0 0;
+	font-size: 25px;
+}
+
+#div_menu a:hover{
+	background-color: orange;
+	color: black;
+}
+
+footer{
+	
+	
+	padding: 10px;
+	background-color:green;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: 52px;
+}
+
+
+/* IDS */
+#pfooter{
+	
+	color: white;
+}
+
+
+/* container */
+.container{
+	
+	width: 960px;
+	margin: auto;
+}
+
+
+.container_2{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="passagem-info-teste.css" />
+</head>
+
+<body>
+    <header class="container">
+        <div class="nav-logo">
+            <a href="passagem teste.html">
+                <img src="logo_caixa.png" />
+            </a>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Histórico</a></li>
+                <li><a href="passagem-turno-teste.html">Passagem</a></li>
+                <li><a href="contatos teste.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>
+        cadastrar passagem
+    </h2>
+
+    <div class="formpassagem">
+        <nav>
+            <form method="POST">
+                <label for="pname">PLATAFORMA:</label>
+
+                <select name="pname" id="pname">
+            <option>ALTA</option>
+            <option>BAIXA</option> </select
+          ><br /><br />
+
+          <label for="sname">SISTEMA:</label>
+          <input
+            type="text"
+            id="sname"
+            name="sname"
+            size="10"
+            maxlength="30"
+            placeholder="LDC"
+          /><br /><br />
+
+          <label for="toname">TIPO DA OCORRÊNCIA:</label>
+          <select id="toname" name="toname" maxlength="30">
+            <option>ORDEM DE SERVIÇO</option>
+            <option>TAREFA</option>
+            <option>INCIDENTE</option>
+          </select>
+                <br /><br />
+
+                <label for="ocname">Nº DA OCORRÊNCIA:</label>
+                <input type="text" id="ocname" name="ocname" maxlength="15" /><br /><br />
+
+                <label for="aname">ASSUNTO:</label>
+                <textarea type="text" id="aname" name="aname" maxlength="100" cols="40" rows="5">
+          </textarea
+          ><br /><br />
+
+          <label for="eqname">EQUIPE:</label>
+          <input
+            type="text"
+            id="eqname"
+            name="eqname"
+            maxlength="30"
+          /><br /><br />
+
+          <label for="dname">DESCRIÇÃO:</label>
+          <textarea
+            type="text"
+            id="dname"
+            name="dname"
+            maxlength="500"
+            cols="40"
+            rows="7"
+          ></textarea>
+                <br /><br />
+            </form>
+        </nav>
+
+        <div class="botoes">
+            <button type="button" id="bpac" onclick="alert('Cadastrado com sucesso.')">
+          cadastrar passagem</button
+        >
+
+        <button
+          id="bvoltar"
+          onclick="window.location.href='passagem-turno-teste.html';"
+        >
+          voltar
+        </button>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            CEPTIRJ © 2019 - APLICATIVO DE PASSAGEM DE TURNO
+        </p>
+    </footer>
+</body>
+
+</html>
