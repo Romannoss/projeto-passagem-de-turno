@@ -1,93 +1,81 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="cadastrar-contato.css" />
-    <link rel="stylesheet" type="text/css" href="./default.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+<head>
+  <meta charset="utf-8" />
 
-    <title>PAGINA INICIAL - Passagem de Turno</title>
-  </head>
+  <link rel="stylesheet" type="text/css" href="cadastrar-contato.css" />
+  <link rel="stylesheet" type="text/css" href="./default.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
-  <body>
-    <header class="container">
-      <div class="nav-logo">
-        <a href="index.html">
-          <img src="logo_caixa.png" />
-        </a>
-      </div>
+  <title>Cadastro </title>
+</head>
 
-      <nav id="menu">
-        <ul>
-          <li><a href="#">Histórico</a></li>
-          <li><a href="#">Passagem</a></li>
-          <li><a href="contatos.html">Contatos</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div id="cadastrar-cont">
-      <h2>
-        cadastrar contato
-      </h2>
-
-      <nav id="formulario-cad">
-        <form method="POST">
-          <label for="fname">EQUIPE:</label>
-          <input
-            type="text"
-            id="fname"
-            name="fname"
-            maxlength="30"
-          /><br /><br />
-
-          <label for="lname">Nº TELEFONE:</label>
-          <input
-            type="number"
-            id="lname"
-            name="lname"
-            maxlength="30"
-          /><br /><br />
-
-          <label for="lname">PERIODO:</label>
-
-          <select name="pname" id="pname">
-            <option>MANHÃ</option>
-            <option>TARDE</option>
-            <option>NOITE</option>
-            <option>COMERCIAL</option> </select
-          ><br /><br />
-
-          <label for="lname">NOME DO CONTATO:</label>
-          <input
-            type="text"
-            id="lname"
-            name="lname"
-            maxlength="30"
-          /><br /><br />
-        </form>
-      </nav>
-
-      <button type="button" onclick="alert('Cadastrado com sucesso.')">
-        cadastrar contato</button
-      ><br />
-
-      <button
-        id="bvoltar"
-        onclick="window.location.href='contatos.html';"
-      >
-        voltar
-      </button>
+<body>
+  <header class="container">
+    <div class="nav-logo">
+      <a href="index.html">
+        <img src="logo_caixa.png" />
+      </a>
     </div>
 
-    <footer>
-      <p>
-        CEPTIRJ © 2019 - APLICATIVO DE PASSAGEM DE TURNO
-      </p>
-    </footer>
-  </body>
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Histórico</a></li>
+        <li><a href="./passagem-turno.html">Passagem</a></li>
+        <li><a href="./contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="cadastrar-cont">
+
+    <h2>
+      cadastrar contato
+    </h2>
+  </section>
+
+  <div id="cadastrar-cont">
+
+    <nav id="formulario-cad">
+      <form method="POST">
+        <label for="fname">EQUIPE:</label>
+        <input type="text" id="fname" name="fname" maxlength="30" /><br /><br />
+
+        <label for="lname">Nº TELEFONE:</label>
+        <input type="number" id="lname" name="lname" maxlength="30" /><br /><br />
+
+        <label for="lname">PERIODO:</label>
+
+        <select name="pname" id="pname">
+          <option>MANHÃ</option>
+          <option>TARDE</option>
+          <option>NOITE</option>
+          <option>COMERCIAL</option>
+        </select><br /><br />
+
+        <label for="lname">NOME DO CONTATO:</label>
+        <input type="text" id="lname" name="lname" maxlength="30" /><br /><br />
+      </form>
+    </nav>
+
+    <button type="button" onclick="alert('Cadastrado com sucesso.')">
+      cadastrar contato</button><br />
+
+    <button id="bvoltar" onclick="window.location.href='contatos.html';">
+      voltar
+    </button>
+  </div>
+
+  <footer>
+    <p>
+      CEPTIRJ © 2019 - APLICATIVO DE PASSAGEM DE TURNO
+    </p>
+  </footer>
+
+</body>
+
 </html>
