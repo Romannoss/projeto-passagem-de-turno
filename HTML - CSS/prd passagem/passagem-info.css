@@ -1,0 +1,72 @@
+/* page passagem de turno css */
+
+@charset "utf-8";
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 60px;
+    text-transform: uppercase;
+    margin: 20px 0px 0px 0px;
+}
+
+/* formulario -----------------*/
+.formpassagem {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 0px 400px;
+    padding: 10px;
+}
+
+
+#sname {
+    text-transform: uppercase;
+}
+
+#ocname {
+    text-transform: uppercase;
+}
+
+#eqname {
+    text-transform: uppercase;
+}
+
+/* botoes ----------------*/
+
+.botoes {
+    width: 300px;
+    margin: 20px 0px 0px 10px;
+   
+}
+
+#buttonvoltar {
+    background-color: green;
+    color: honeydew;
+    margin-left: 15px;
+    padding: 3px 5px;
+    border-radius: 2px;
+	border: none;
+    cursor: pointer;
+}
+
+#button-cadastrar {
+    padding: 3px 5px;
+    border-radius: 2px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+/* footer  -------------------------*/
+footer {
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    width: 99%;
+    box-sizing: border-box;
+    height: 50px;
+}

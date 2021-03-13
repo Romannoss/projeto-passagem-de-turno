@@ -1,6 +1,11 @@
 /* page passagem de turno css */
 @charset "utf-8";
 
+:root{
+
+	--white: cornsilk;
+
+}
 
 body{
 
@@ -15,29 +20,31 @@ body{
 	
 }
 
-#botoes{
+.botoes{
 
 	margin: 95px 0px 0px 250px;	
 	
 }
 
-.bcad{
+#button-cad{
 
 	padding: 7px;
-	background-color: blue;
-	color: cornsilk;
+	background-color: rgb(22, 22, 207);
+	color: var(--white);
 	border-radius: 2px;
 	border: none;
+	cursor: pointer;
 }
 
-#bupdate{
+#button-update{
 
 	padding: 7px;
 	background-color: rgb(13, 143, 1);
-	color: cornsilk;
+	color: var(--white);
 	margin-left: 20px;
 	border-radius: 2px;
 	border: none;
+	cursor: pointer;
 }
 
 
