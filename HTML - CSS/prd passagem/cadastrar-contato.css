@@ -1,6 +1,16 @@
 @charset "utf-8";
 
+:root{
 
+	--white: cornsilk;
+
+}
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+	
+	
+}
 
 h2{
 	
@@ -19,11 +29,8 @@ h2{
 	font-weight: 3000;
 }
 
-*{
-	font-family: 'Ubuntu', sans-serif;
-	
-	
-}
+
+
 #pname{
 	font-weight: 1000;
 }
@@ -35,15 +42,39 @@ body{
 
 }
 
+/*botoes ---------------------------------------------
 button{
 	width: 150px;
 	margin: 50px 0px 0px 475px;
-	font-weight: 1000;
+	border-radius: 2px;
+	border: none;
+	padding: 7px;
+	text-align: center;
+	
+}
+*/
+
+
+.botoes{
+
+	margin: 95px 0px 0px 250px;	
 	
 }
 
-#bvoltar{
+#botao-voltar{
 	width: 150px;
 	margin: 50px 0px 0px 475px;
-	font-weight: 1000;
+	border-radius: 2px;
+	border: none;
+	padding: 7px;
+	text-align: center;
+}
+
+#botao-voltar{
+	width: 150px;
+	margin: 50px 0px 0px 475px;
+	border-radius: 2px;
+	border: none;
+	padding: 7px;
+	text-align: center;
 }

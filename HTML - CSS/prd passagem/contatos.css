@@ -5,6 +5,14 @@
 	
 }
 
+/*body ----------------------------------*/
+body{
+
+	background-color: #a7a7a7;
+
+}
+
+
 /* tabela -----------------*/
 #container-table{
 	
@@ -57,16 +65,13 @@
 /*button  ------------------------------*/
 #botao-cadastrar{
 	margin: 95px 0px 0px 250px;	
-	
-	
+	cursor: pointer;
+	border-radius: 2px;
+	border: none;
+	padding: 7px;
+	text-align: center;
 }
 
-/*body ----------------------------------*/
-body{
-
-	background-color: #a7a7a7;
-
-}
 
 
 
