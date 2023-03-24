@@ -16,4 +16,12 @@
     <PackageReference Include="Swagger" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProgramaPassagemTurno.domain\ProgramaPassagemTurno.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\Views\Home\" />
+  </ItemGroup>
+
 </Project>

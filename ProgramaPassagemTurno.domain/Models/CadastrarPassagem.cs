@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-namespace ProgramaPassagemTurno.Models
+namespace ProgramaPassagemTurno.Domain.Models
 {
     public class CadastrarPassagem
     {
