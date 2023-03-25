@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProgramaPassagemTurno.Models;
+using ProgramaPassagemTurno.Domain.Models;
+using ProgramaPassagemTurno.ViewModel;
 using System.Diagnostics;
 
 namespace ProgramaPassagemTurno.Controllers
