@@ -1,4 +1,4 @@
-namespace ProgramaPassagemTurno.Domain.ViewModel.Error
+namespace ProgramaPassagemTurno.ViewModel
 {
     public class ErrorViewModel
     {
