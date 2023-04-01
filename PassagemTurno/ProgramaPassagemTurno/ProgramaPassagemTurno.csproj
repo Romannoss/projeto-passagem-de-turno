@@ -21,7 +21,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\js\Views\Home\" />
+    <Folder Include="wwwroot\lib\coreui\dist\assets\brand\" />
+    <Folder Include="wwwroot\lib\coreui\dist\js\" />
+    <Folder Include="wwwroot\lib\font-awesome\dist\css\" />
+    <Folder Include="wwwroot\lib\font-awesome\dist\js\" />
+    <Folder Include="wwwroot\lib\font-awesome\dist\svgs\" />
+    <Folder Include="wwwroot\lib\font-awesome\dist\webfonts\" />
   </ItemGroup>
 
 </Project>
